@@ -1,0 +1,28 @@
+.cover__link {
+  position: relative;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: url(../../../images/cover-trains.jpg) center / cover;
+}
+
+@media (max-width: 1279px) {
+  .cover__link {
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .cover__link {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cover__link {
+    min-height: 200px;
+  }
+}

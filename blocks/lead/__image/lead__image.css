@@ -1,0 +1,14 @@
+.lead__image {
+  width: 100%;
+  max-width: 984px;
+  max-height: 615px;
+  margin: 0 auto 8px auto;
+  display: flex;
+  object-fit: cover;
+}
+
+@media (max-width: 1023px) {
+  .lead__image {
+    max-width: 100%;
+  }
+}

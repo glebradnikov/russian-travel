@@ -1,0 +1,16 @@
+.header__list {
+  margin: 0;
+  padding: 18px 0 0 0;
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  list-style: none;
+}
+
+@media (max-width: 425px) {
+  .header__list {
+    padding: 14px 0 0 0;
+  }
+}

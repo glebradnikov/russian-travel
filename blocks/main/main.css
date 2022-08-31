@@ -1,0 +1,21 @@
+.main {
+  margin: 28px 0 68px 0;
+}
+
+@media (max-width: 1279px) {
+  .main {
+    margin: 20px 0 68px 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  .main {
+    margin: 20px 0 64px 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .main {
+    margin: 32px 0 48px 0;
+  }
+}
