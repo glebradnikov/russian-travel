@@ -6,7 +6,13 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  background: url(../../../images/cover-trains.jpg) center / cover;
+  background: rgba(42, 44, 47, .3);
+  transition: 1s;
+}
+
+.cover__link:hover {
+  background: rgba(42, 44, 47, .8);
+  transition: .5s;
 }
 
 @media (max-width: 1279px) {

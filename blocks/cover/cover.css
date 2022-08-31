@@ -1,9 +1,12 @@
 .cover {
-  padding: 0 48px;
+  max-width: 1184px;
+  min-height: 740px;
+  margin: 0 48px;
+  background: url(../../images/cover-trains.jpg) center / cover;
 }
 
 @media (max-width: 1279px) {
   .cover {
-    padding: 0;
+    margin: 0;
   }
 }
