@@ -21,9 +21,14 @@
   }
 }
 
+@media (max-width: 767px) {
+  .photo-grid__list {
+    gap: 12px;
+  }
+}
+
 @media (max-width: 425px) {
   .photo-grid__list {
     grid-template-columns: 1fr;
-    gap: 12px;
   }
 }

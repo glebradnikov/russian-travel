@@ -1,7 +1,7 @@
 .footer {
   padding: 24px 48px;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   gap: 18px;
 }
@@ -12,7 +12,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   .footer {
     padding: 16px;
     flex-direction: column;

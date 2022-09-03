@@ -11,7 +11,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   .intro {
     margin: 64px auto;
     padding: 0 16px;
